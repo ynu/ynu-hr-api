@@ -1,1 +1,12 @@
-{}
+{
+  "mysql_zzjg": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:@localhost/test",
+    "database": "test",
+    "password": "",
+    "name": "mysql_zzjg",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

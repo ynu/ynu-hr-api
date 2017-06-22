@@ -1,0 +1,35 @@
+{
+  "name": "zzjg",
+  "plural": "zzjg",
+  "base": "PersistedModel",
+  "excludeBaseProperties" : ["id"],
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "t_zzjg"
+    }
+  },
+  "properties": {
+    "dm": {
+      "type": "string",
+      "required": true,
+      "id": true
+    },
+    "mc": {
+      "type": "string",
+      "required": true
+    },
+    "cc": {
+      "type": "string",
+      "required": true
+    },
+    "sjdm": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
