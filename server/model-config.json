@@ -14,7 +14,7 @@
     ]
   },
   "zzjg": {
-    "dataSource": "mysql_zzjg",
+    "dataSource": "mysql_hr",
     "public": true
   }
 }

@@ -1,11 +1,10 @@
 {
-  "mysql_zzjg": {
+  "mysql_hr": {
     "host": "localhost",
     "port": 3306,
-    "url": "mysql://root:@localhost/test",
     "database": "test",
     "password": "",
-    "name": "mysql_zzjg",
+    "name": "mysql_hr",
     "user": "root",
     "connector": "mysql"
   }
