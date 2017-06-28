@@ -2,7 +2,6 @@
   "name": "zzjg",
   "plural": "zzjg",
   "base": "PersistedModel",
-  "excludeBaseProperties" : ["id"],
   "idInjection": true,
   "options": {
     "validateUpsert": true,
@@ -10,11 +9,14 @@
       "table": "t_zzjg"
     }
   },
+  "excludeBaseProperties": [
+    "id"
+  ],
   "properties": {
     "dm": {
       "type": "string",
-      "required": true,
-      "id": true
+      "id": true,
+      "required": true
     },
     "mc": {
       "type": "string",
