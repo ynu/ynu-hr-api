@@ -1,0 +1,50 @@
+{
+  "name": "jzg",
+  "plural": "jzg",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "t_jzg"
+    }
+  },
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "jgh": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "xm": {
+      "type": "string",
+      "required": true
+    },
+    "xb": {
+      "type": "string",
+      "required": true
+    },
+    "sfzh": {
+      "type": "string",
+      "required": true
+    },
+    "bmdm": {
+      "type": "string",
+      "required": true
+    },
+    "bmmc": {
+      "type": "string",
+      "required": true
+    },
+    "jxrq": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
