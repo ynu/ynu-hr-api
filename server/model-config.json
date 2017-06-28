@@ -20,5 +20,9 @@
   "jzg": {
     "dataSource": "mysql_hr",
     "public": true
+  },
+  "Admin": {
+    "dataSource": "mysql_hr",
+    "public": true
   }
 }
