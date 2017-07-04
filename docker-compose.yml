@@ -1,0 +1,9 @@
+version: '2'
+services:
+  ynu-hr-api:
+    build: .
+    ports:
+      - "50071:3000"
+    restart: always
+    env_file:
+      - ./.env
